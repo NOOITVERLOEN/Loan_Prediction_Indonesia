@@ -1,0 +1,60 @@
+{
+  "features": [
+    "Jenis_Kelamin",
+    "Status_Pernikahan",
+    "Jumlah_Tanggungan",
+    "Pendidikan",
+    "Wiraswasta",
+    "Riwayat_Kredit",
+    "Tenor_Pinjaman",
+    "Pendapatan_Pemohon_Log",
+    "Pendapatan_Pendamping_Log",
+    "Jumlah_Pinjaman_Log",
+    "TotalIncome_Log",
+    "EMI_Log",
+    "LoanIncomeRatio",
+    "Area_Pedesaan",
+    "Area_Perkotaan",
+    "Area_Semi_perkotaan"
+  ],
+  "best_params": {
+    "class_weight": null,
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_split": 2,
+    "n_estimators": 300
+  },
+  "cv_f1": 0.8099,
+  "test_f1": 0.8605,
+  "test_auc": 0.8317,
+  "test_accuracy": 0.8049,
+  "test_precision": 0.8506,
+  "test_recall": 0.8706,
+  "currency": "IDR",
+  "kurs": 187.22,
+  "exchange_rate": "1 INR = 187.22 IDR",
+  "encode_maps": {
+    "Jenis_Kelamin": {
+      "Laki-laki": 0,
+      "Perempuan": 1
+    },
+    "Status_Pernikahan": {
+      "Belum Menikah": 0,
+      "Menikah": 1
+    },
+    "Pendidikan": {
+      "Bukan Sarjana": 0,
+      "Sarjana": 1
+    },
+    "Wiraswasta": {
+      "Tidak": 0,
+      "Ya": 1
+    },
+    "Riwayat_Kredit": {
+      "Buruk": 0,
+      "Baik": 1
+    }
+  },
+  "avg_income_idr": 1011636.0,
+  "avg_loan_idr": 27287772.0
+}
