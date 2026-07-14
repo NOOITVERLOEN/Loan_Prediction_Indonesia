@@ -1,0 +1,55 @@
+{
+  "model_family": "LogisticRegression",
+  "best_params": {
+    "C": 5,
+    "class_weight": null,
+    "penalty": "l2",
+    "solver": "liblinear"
+  },
+  "cv_f1": 0.8173,
+  "test_accuracy": 0.8699,
+  "test_precision": 0.8966,
+  "test_recall": 0.9176,
+  "test_f1": 0.907,
+  "test_roc_auc": 0.8932,
+  "confusion_matrix": [
+    [
+      29,
+      9
+    ],
+    [
+      7,
+      78
+    ]
+  ],
+  "n_train": 491,
+  "n_test": 123,
+  "currency": "IDR",
+  "kurs_info": "1 INR = Rp 187.22 (ilustratif, saat konversi dataset)",
+  "degenerate_override_applied": true,
+  "income_min_train": 39316.0,
+  "income_median_train": 722482.0,
+  "loan_max_train": 131054000.0,
+  "top_factors": [
+    {
+      "label": "Riwayat Kredit",
+      "weight": 1.0
+    },
+    {
+      "label": "Jumlah Pinjaman",
+      "weight": 0.583
+    },
+    {
+      "label": "Cicilan Bulanan (EMI)",
+      "weight": 0.513
+    },
+    {
+      "label": "Total Pendapatan",
+      "weight": 0.381
+    },
+    {
+      "label": "Tenor Pinjaman",
+      "weight": 0.309
+    }
+  ]
+}
